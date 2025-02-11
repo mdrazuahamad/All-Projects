@@ -1,0 +1,36 @@
+.manegment{
+    background-color: #13134D;
+}
+.manegment-event{
+    background-color: #FFDE00;
+}
+.bg-image{
+    background-image: url("../../../image//meet.jpg" ) ;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.footer{
+    background-color: #0D2C6D;
+}
+.btn-central{
+    padding: 11px 40px;
+    background-color: #FFDE00;
+    color: #000;
+    font-size: 20px;
+    border: none;
+    margin-top: 36px;
+    margin-bottom: 20px;
+    font-weight: 550;
+}
+.paragraph-text{
+    font-size: 25px;
+    font-weight: 400;
+}
+.mazban-text{
+    font-size: 40px;
+    font-weight: 400;
+}
+
