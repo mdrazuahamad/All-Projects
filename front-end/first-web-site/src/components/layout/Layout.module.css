@@ -1,0 +1,37 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+.menu ul {
+  display: flex;
+  list-style: none;
+}
+
+.main {
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+}
+.navItem {
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+}
+.navItemActive {
+  margin-right: 20px;
+  color: #ff0;
+  text-decoration: underline;
+  font-weight: bold;
+}
