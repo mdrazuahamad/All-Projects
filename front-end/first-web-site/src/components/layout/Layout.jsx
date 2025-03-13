@@ -15,7 +15,7 @@ function Layout(props) {
           <ul>
             <li>
               <Link
-                to="/"
+                to='/'
                 className={path === "/" ? classes.navItemActive : classes.navItem}>
                 Home
               </Link>
@@ -32,6 +32,13 @@ function Layout(props) {
                 to='/contact'
                 className={path === "/contact" ? classes.navItemActive : classes.navItem}>
                 Contact Us
+              </Link>
+            </li>
+            <li>
+              <Link
+                to='/task'
+                className={path === "/task" ? classes.navItemActive : classes.navItem}>
+                Task
               </Link>
             </li>
           </ul>
